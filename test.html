@@ -1,0 +1,46 @@
+<!-- Mettre le code html directement ICI -->
+
+
+
+<div id="dlprofil">
+    <div class="img_pp_box">
+        <img id="img_pp">
+    </div>
+    <span>
+        Voici un exemple de code pour récupérer l'image de profil de l'utilisateur
+    </span>
+    <span>{{extension.name}}</span>
+    <ion-button color="primary" expand="block" fill="outline" href="#" target="_blank">
+        <ion-icon name="open-outline"></ion-icon>
+        <ion-label>Juste un exemple</ion-label>
+    </ion-button>
+</div>
+
+<style>
+    .img_pp_box {
+        margin-top: 10px;
+        width: auto;
+        height: 100%;
+        max-height: 300px;
+        display: flex;
+        justify-content: center;
+
+
+    }
+
+    .img_pp_box img {
+        border-radius: 10px;
+        overflow: hidden;
+
+    }
+</style>
+
+
+<script>
+
+
+    const profilUrl = document.querySelector("#app > div > ion-nav > div > ion-app > ion-split-pane > ion-menu > ion-header > ion-toolbar > div > div > img").src;
+    document.getElementById("img_pp").src = profilUrl;
+
+
+</script>

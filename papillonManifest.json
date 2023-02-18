@@ -1,0 +1,18 @@
+{
+	"name": "Turboself - Cantine",
+	"author": "Tom Theret",
+	"authorDisplayName": "Papillon",
+	"description": "Plugin pour Turboself",
+	"icon": "restaurant",
+    "version": "0.0.1",
+	"javascript": ["test.js"],
+	"css": [],
+	"tabs": [
+		{
+		"name": "Cantine",
+		"icon": "restaurant",
+		"path": "fr.papillon.turboself",
+		"html": "test.html"
+		}
+	]
+}
