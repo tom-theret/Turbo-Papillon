@@ -12,7 +12,7 @@
 		"name": "Cantine",
 		"icon": "restaurant",
 		"path": "fr.papillon.turboself",
-		"html": "test.html"
+		"html": "login.html"
 		}
 	]
 }
